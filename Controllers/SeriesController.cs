@@ -7,13 +7,25 @@ using System.Threading.Tasks;
 
 namespace webapi.Controllers
 {   
-    [Route("webapi/series")]
+
+    //SeriesController hereda la clase ControllerBase, utilizada para el manejo
+    //de endpoints.
+    //SeriesController Se encarga de manejar operaciones CRUD para la gestion de series.
+    //Route especifica la ruta para este controlador. En este caso local:
+    //ApiController identifica a la clase como un controlador en el framework.
+    //EnableCors habilita el uso de CORS Request para el API, haciendo uso de una
+    //politica default creada en Program.cs.
+    //http://localhost:5054/milista/series/
+    [Route("milista/series")]
     [ApiController]
     [EnableCors("DefaultPolicy")]
     public class SeriesController : ControllerBase
     {
         private readonly MongoDBService _mongoDBService;
 
+        //Se hace uso del singleton mongoDBService para conectar
+        //con la base de datos en MongoDB y realizar las operaciones
+        //CRUD permitidas por el API.
         public SeriesController(MongoDBService mongoDBService)
         {
             _mongoDBService = mongoDBService;

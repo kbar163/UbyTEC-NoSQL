@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace webapi.Services
 {
+    //MongoDBService es un servicio creado para conectar a la base de datos
+    //creada en MongoDB, haciendo uso de las configuraciones especificadas en
+    //el proyecto.
     public class MongoDBService
     {
         private readonly IMongoCollection<Series> _seriesCollection;

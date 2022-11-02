@@ -4,6 +4,10 @@ using System.Text.Json.Serialization;
 
 namespace webapi.Models
 {
+    //Modelo de datos utilizado para representar una serie.
+    //Decoradores de dependencias MongoDB que permiten
+    //la creacion de un identificador unico para cada serie,
+    //el cual se utiliza como indice en la base de datos.
     public class Series
     {
         [BsonId]
