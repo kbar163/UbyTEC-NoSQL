@@ -20,7 +20,7 @@ namespace webapi.Services
             _feedbackCollection = database.GetCollection<Feedback>(mongoDBSettings.Value.CollectionName);
         }
 
-        //Create data function
+        //Create un nuevo comentario de feedback en la base de datos nosql
 
         public async Task CreateFeedbackAsync(Feedback newFeedback)
         {
@@ -28,7 +28,7 @@ namespace webapi.Services
             return;
         }
 
-        
+        //Obtiene un comentario de feedback especifico cuyo id haga match con el parametro dado.
         public async Task<List<Feedback>> GetFeedbackAsync(string id)
         {
             FilterDefinition<Feedback> filter = Builders<Feedback>.Filter.Eq("id",id);
