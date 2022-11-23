@@ -15,7 +15,7 @@ namespace webapi.Controllers
     //ApiController identifica a la clase como un controlador en el framework.
     //EnableCors habilita el uso de CORS Request para el API, haciendo uso de una
     //politica default creada en Program.cs.
-    //http://localhost:5054/milista/series/
+    //http://localhost:5054/api/feedback/
     [Route("api/feedback")]
     [ApiController]
     [EnableCors("DefaultPolicy")]
