@@ -74,3 +74,8 @@ C:\Users\XCPC\Documents\DB\BASES DE DATOS TEC\Investigacion\web-api\NoSQL-Use-Ca
 C:\Users\XCPC\Documents\DB\BASES DE DATOS TEC\Investigacion\web-api\NoSQL-Use-Case\obj\Debug\net6.0\web-api.pdb
 C:\Users\XCPC\Documents\DB\BASES DE DATOS TEC\Investigacion\web-api\NoSQL-Use-Case\obj\Debug\net6.0\web-api.genruntimeconfig.cache
 C:\Users\XCPC\Documents\DB\BASES DE DATOS TEC\Investigacion\web-api\NoSQL-Use-Case\obj\Debug\net6.0\ref\web-api.dll
+C:\Users\XCPC\Documents\DB\BASES DE DATOS TEC\Investigacion\web-api\NoSQL-Use-Case\obj\Debug\net6.0\staticwebassets\msbuild.web-api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\XCPC\Documents\DB\BASES DE DATOS TEC\Investigacion\web-api\NoSQL-Use-Case\obj\Debug\net6.0\staticwebassets\msbuild.build.web-api.props
+C:\Users\XCPC\Documents\DB\BASES DE DATOS TEC\Investigacion\web-api\NoSQL-Use-Case\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.web-api.props
+C:\Users\XCPC\Documents\DB\BASES DE DATOS TEC\Investigacion\web-api\NoSQL-Use-Case\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.web-api.props
+C:\Users\XCPC\Documents\DB\BASES DE DATOS TEC\Investigacion\web-api\NoSQL-Use-Case\obj\Debug\net6.0\staticwebassets.pack.json
